@@ -11,6 +11,7 @@
 		7D8E2AEA273C1BB100C39310 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8E2AE9273C1BB100C39310 /* ContentView.swift */; };
 		7D8E2AEC273C1BB300C39310 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D8E2AEB273C1BB300C39310 /* Assets.xcassets */; };
 		7D8E2AEF273C1BB300C39310 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D8E2AEE273C1BB300C39310 /* Preview Assets.xcassets */; };
+		7D8E2AFB273C23C000C39310 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8E2AFA273C23C000C39310 /* API.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		7D8E2AE9273C1BB100C39310 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7D8E2AEB273C1BB300C39310 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D8E2AEE273C1BB300C39310 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7D8E2AFA273C23C000C39310 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 		7D8E2AF5273C1BC500C39310 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				7D8E2AFA273C23C000C39310 /* API.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D8E2AEA273C1BB100C39310 /* ContentView.swift in Sources */,
+				7D8E2AFB273C23C000C39310 /* API.swift in Sources */,
 				7D8E2AE8273C1BB100C39310 /* WeatherForcaseApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -312,6 +316,7 @@
 				DEVELOPMENT_TEAM = WC4D2Y77WW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app requires your location for weather data";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -342,6 +347,7 @@
 				DEVELOPMENT_TEAM = WC4D2Y77WW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app requires your location for weather data";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
