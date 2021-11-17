@@ -24,6 +24,7 @@
 		7D8577112742AE5F00F8C3F9 /* dayScatteredClouds.json in Resources */ = {isa = PBXBuildFile; fileRef = 7D8577012742AE5F00F8C3F9 /* dayScatteredClouds.json */; };
 		7D8577122742AE5F00F8C3F9 /* nightRain.json in Resources */ = {isa = PBXBuildFile; fileRef = 7D8577022742AE5F00F8C3F9 /* nightRain.json */; };
 		7D8577152742B42F00F8C3F9 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 7D8577142742B42F00F8C3F9 /* Lottie */; };
+		7D85774F2742BCB300F8C3F9 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D85774E2742BCB300F8C3F9 /* LottieView.swift */; };
 		7D8E2AE8273C1BB100C39310 /* WeatherForcaseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8E2AE7273C1BB100C39310 /* WeatherForcaseApp.swift */; };
 		7D8E2AEA273C1BB100C39310 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8E2AE9273C1BB100C39310 /* ContentView.swift */; };
 		7D8E2AEC273C1BB300C39310 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D8E2AEB273C1BB300C39310 /* Assets.xcassets */; };
@@ -56,6 +57,7 @@
 		7D8577002742AE5F00F8C3F9 /* nightBrokenClouds.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = nightBrokenClouds.json; sourceTree = "<group>"; };
 		7D8577012742AE5F00F8C3F9 /* dayScatteredClouds.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dayScatteredClouds.json; sourceTree = "<group>"; };
 		7D8577022742AE5F00F8C3F9 /* nightRain.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = nightRain.json; sourceTree = "<group>"; };
+		7D85774E2742BCB300F8C3F9 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
 		7D8E2AE4273C1BB100C39310 /* WeatherForcase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherForcase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D8E2AE7273C1BB100C39310 /* WeatherForcaseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherForcaseApp.swift; sourceTree = "<group>"; };
 		7D8E2AE9273C1BB100C39310 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -109,7 +111,6 @@
 				7D8E2AF6273C1BC800C39310 /* ViewModel */,
 				7D8E2AF5273C1BC500C39310 /* Networking */,
 				7D8E2AE7273C1BB100C39310 /* WeatherForcaseApp.swift */,
-				7D8E2AE9273C1BB100C39310 /* ContentView.swift */,
 				7D8E2AEB273C1BB300C39310 /* Assets.xcassets */,
 				7D8E2AED273C1BB300C39310 /* Preview Content */,
 			);
@@ -145,6 +146,8 @@
 		7D8E2AF7273C1BCA00C39310 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				7D8E2AE9273C1BB100C39310 /* ContentView.swift */,
+				7D85774E2742BCB300F8C3F9 /* LottieView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -287,6 +290,7 @@
 				7D8E2B03273C2D6500C39310 /* Weather.swift in Sources */,
 				7D8E2B09273C2DA900C39310 /* Temperature.swift in Sources */,
 				7D8E2B07273C2D9400C39310 /* DailyWeather.swift in Sources */,
+				7D85774F2742BCB300F8C3F9 /* LottieView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
