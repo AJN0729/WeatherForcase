@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D4C17F42745519600BC1E0E /* MenuHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4C17F32745519600BC1E0E /* MenuHeaderView.swift */; };
 		7D8577032742AE5F00F8C3F9 /* dayClearSky.json in Resources */ = {isa = PBXBuildFile; fileRef = 7D8576F32742AE5E00F8C3F9 /* dayClearSky.json */; };
 		7D8577042742AE5F00F8C3F9 /* dayRain.json in Resources */ = {isa = PBXBuildFile; fileRef = 7D8576F42742AE5E00F8C3F9 /* dayRain.json */; };
 		7D8577052742AE5F00F8C3F9 /* nightScatteredClouds.json in Resources */ = {isa = PBXBuildFile; fileRef = 7D8576F52742AE5E00F8C3F9 /* nightScatteredClouds.json */; };
@@ -41,6 +42,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7D4C17F32745519600BC1E0E /* MenuHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuHeaderView.swift; sourceTree = "<group>"; };
 		7D8576F32742AE5E00F8C3F9 /* dayClearSky.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dayClearSky.json; sourceTree = "<group>"; };
 		7D8576F42742AE5E00F8C3F9 /* dayRain.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dayRain.json; sourceTree = "<group>"; };
 		7D8576F52742AE5E00F8C3F9 /* nightScatteredClouds.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = nightScatteredClouds.json; sourceTree = "<group>"; };
@@ -148,6 +150,7 @@
 			children = (
 				7D8E2AE9273C1BB100C39310 /* ContentView.swift */,
 				7D85774E2742BCB300F8C3F9 /* LottieView.swift */,
+				7D4C17F32745519600BC1E0E /* MenuHeaderView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -286,6 +289,7 @@
 				7D8E2AEA273C1BB100C39310 /* ContentView.swift in Sources */,
 				7D8E2AFF273C284500C39310 /* NetworkManager.swift in Sources */,
 				7D8E2AFB273C23C000C39310 /* API.swift in Sources */,
+				7D4C17F42745519600BC1E0E /* MenuHeaderView.swift in Sources */,
 				7D8E2AE8273C1BB100C39310 /* WeatherForcaseApp.swift in Sources */,
 				7D8E2B03273C2D6500C39310 /* Weather.swift in Sources */,
 				7D8E2B09273C2DA900C39310 /* Temperature.swift in Sources */,
