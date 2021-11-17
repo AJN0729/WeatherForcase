@@ -14,7 +14,7 @@ struct Weather: Codable, Identifiable {
     var pressure: Int
     var humidity: Int
     var dew_point: Double
-    var clouds: Double
+    var clouds: Int
     var wind_speed: Double
     var wind_deg: Int
     var weather: [WeatherDetail]
