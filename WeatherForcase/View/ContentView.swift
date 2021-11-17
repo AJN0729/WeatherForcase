@@ -16,7 +16,7 @@ struct ContentView: View {
             VStack(spacing: 0) {
                 MenuHeaderView(cityVM: cityVM)
                 ScrollView(showsIndicators: false) {
-//                    CityView(cityVM: cityVM)
+                    CityView(cityVM: cityVM)
                 }
             } .padding(.top, 40)
         }.background(LinearGradient(gradient: Gradient(colors: [Color("ColorOne"), Color("ColorTwo")]), startPoint: .topLeading, endPoint: .bottomTrailing))
