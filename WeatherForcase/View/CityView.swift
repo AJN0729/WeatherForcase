@@ -18,7 +18,7 @@ struct CityView: View {
             TodayWeatherView(cityVM: cityVM)
                 .padding()
             HourlyWeatherView(cityVM: cityVM)
-//            DailyWeatherView(cityVM: cityVM)
+            DailyWeatherView(cityVM: cityVM)
             
         }.padding(.bottom, 30)
     }
